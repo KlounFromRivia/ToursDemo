@@ -70,7 +70,9 @@ erDiagram
         int Code
     }
     Countries ||--o{ Hotels: is
-    TypeTours ||--o{ Trams: is
+    Countries ||--o{ Tours: is
+    TypeTours ||--o{ Tours: is
+    Tours ||--o{ TypeTours: is
     Hotels ||--o{ HotelCommets: is
     Users ||--o{ HotelCommets: is
     Users ||--o{ Orders: is
