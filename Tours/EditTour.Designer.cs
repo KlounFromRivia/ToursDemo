@@ -194,7 +194,7 @@
             this.Controls.Add(this.textBoxTitle);
             this.Controls.Add(this.label1);
             this.Name = "EditTour";
-            this.Text = "EditTour";
+            this.Text = "Редактирование туров";
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownCountTicket)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownPrice)).EndInit();
             this.ResumeLayout(false);
