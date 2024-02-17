@@ -30,8 +30,9 @@ namespace Tours
                 Role = Role.Quest
             };
             var form = new MainForm();
-            form.Show();
             this.Hide();
+            form.ShowDialog();
+            this.Show();
         }
 
         private void txtPassword_TextChanged(object sender, EventArgs e)
@@ -55,8 +56,11 @@ namespace Tours
                 {
                     WorkToUser.User = user;
                     var form = new MainForm();
-                    form.Show();
                     this.Hide();
+                    form.ShowDialog();
+                    this.Show();
+                    txtLogin.Text = "";
+                    txtPassword.Text = "";
                 }
             }
         }

@@ -125,14 +125,14 @@
             this.flowLayoutPanel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.flowLayoutPanel1.Location = new System.Drawing.Point(16, 44);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(934, 370);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(1031, 370);
             this.flowLayoutPanel1.TabIndex = 9;
             // 
             // OrderForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(962, 555);
+            this.ClientSize = new System.Drawing.Size(1059, 555);
             this.Controls.Add(this.buttonTakeOrder);
             this.Controls.Add(this.labelSale);
             this.Controls.Add(this.labelSum);

@@ -45,8 +45,8 @@
             // labelPrice
             // 
             this.labelPrice.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelPrice.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelPrice.Location = new System.Drawing.Point(4, 241);
+            this.labelPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.labelPrice.Location = new System.Drawing.Point(3, 300);
             this.labelPrice.Name = "labelPrice";
             this.labelPrice.Size = new System.Drawing.Size(333, 19);
             this.labelPrice.TabIndex = 7;

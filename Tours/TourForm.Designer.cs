@@ -138,14 +138,14 @@
             this.flowLayoutPanel1.Location = new System.Drawing.Point(14, 244);
             this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(5);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(563, 369);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(627, 369);
             this.flowLayoutPanel1.TabIndex = 10;
             // 
             // TourForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(591, 627);
+            this.ClientSize = new System.Drawing.Size(655, 627);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.btnOrder);
             this.Controls.Add(this.btnAdd);
