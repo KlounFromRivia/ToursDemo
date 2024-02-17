@@ -72,7 +72,6 @@ erDiagram
     Countries ||--o{ Hotels: is
     Countries ||--o{ Tours: is
     TypeTours ||--o{ Tours: is
-    Tours ||--o{ TypeTours: is
     Hotels ||--o{ HotelCommets: is
     Users ||--o{ HotelCommets: is
     Users ||--o{ Orders: is
