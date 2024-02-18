@@ -88,4 +88,17 @@ erDiagram
         string UpdatedBy
         DateTimeOffset DeleteddAt
   }
+
+sequenceDiagram
+actor U as User
+participant UI
+participant CB as Code Behind
+participant DB as Database
+U->>UI:ввод авторизационных данных
+UI->>CB:передача данных
+CB->>CB:валидация
+CB->>DB:поиск пользователя
+DB-->>CB:результат поиска
+CB->>UI:сообщение об успешности
+
 ```
