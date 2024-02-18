@@ -106,7 +106,7 @@ CB->>UI:сообщение об успешности
 ```
 
 ## Скрипт заполнения БД
-INSERT [dbo].[Countries] ([Code], [Name]) VALUES (N'AD', N'Andorra')
+﻿INSERT [dbo].[Countries] ([Code], [Name]) VALUES (N'AD', N'Andorra')
 INSERT [dbo].[Countries] ([Code], [Name]) VALUES (N'AE', N'United Arab Emirates')
 INSERT [dbo].[Countries] ([Code], [Name]) VALUES (N'AF', N'Afghanistan')
 INSERT [dbo].[Countries] ([Code], [Name]) VALUES (N'AG', N'Antigua and Barbuda')
