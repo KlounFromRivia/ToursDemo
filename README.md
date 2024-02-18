@@ -90,6 +90,7 @@ erDiagram
   }
 ```
 
+## Диаграмму последовательности авторизации
 ```mermaid
 sequenceDiagram
 actor U as User
